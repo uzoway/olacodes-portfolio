@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/uzoway/olacodes-portfolio/issues"
   },
-  "homepage": "https://github.com/uzoway/olacodes-portfolio#readme"
+  "homepage": "https://github.com/uzoway/olacodes-portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }
