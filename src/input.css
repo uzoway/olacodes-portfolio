@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .hero {
+        background-image: url(../src/assets/bg-image.png);
+        background-position: top center;
+        background-size: 100%;
+    }
+
+    .menu-list-style:before {
+        position: absolute;
+        content: '';
+        top: .5rem;
+        left: -.8rem;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: white;
+    }
+};
