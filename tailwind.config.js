@@ -9,7 +9,7 @@ module.exports = {
       'white': '#ffffff'
     },
     fontFamily: {
-      'spline-sans':  ['Spline sans', 'sans-serif'],
+      'ibm-plex-sans':  ['IBM Plex Sans', 'sans-serif'],
       'bebas': ['Bebas Neue', 'cursive']
     }
   },
