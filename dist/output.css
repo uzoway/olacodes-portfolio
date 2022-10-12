@@ -571,23 +571,68 @@ video {
   bottom: 0px;
 }
 
+.top-1 {
+  top: 0.25rem;
+}
+
+.right-\[24rem\] {
+  right: 24rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.right-\[-4rem\] {
+  right: -4rem;
+}
+
+.right-\[-8rem\] {
+  right: -8rem;
+}
+
+.right-\[-12rem\] {
+  right: -12rem;
+}
+
+.right-\[-13rem\] {
+  right: -13rem;
+}
+
+.right-\[-13\.3rem\] {
+  right: -13.3rem;
+}
+
+.right-\[-13\.1rem\] {
+  right: -13.1rem;
+}
+
+.right-\[-12\.3rem\] {
+  right: -12.3rem;
+}
+
+.right-\[-12\.6rem\] {
+  right: -12.6rem;
+}
+
+.right-\[-12\.7rem\] {
+  right: -12.7rem;
+}
+
+.right-\[-12\.9rem\] {
+  right: -12.9rem;
+}
+
+.top-\[-100\%\] {
+  top: -100%;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
 .z-10 {
   z-index: 10;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .mx-5 {
@@ -595,8 +640,32 @@ video {
   margin-right: 1.25rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .h-screen {
@@ -607,44 +676,24 @@ video {
   height: 0.5rem;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-\[15rem\] {
-  width: 15rem;
 }
 
 .w-\[16rem\] {
   width: 16rem;
 }
 
-.w-\[30\] {
-  width: 30;
-}
-
 .w-\[30\%\] {
   width: 30%;
+}
+
+.basis-3\/6 {
+  flex-basis: 50%;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -659,10 +708,6 @@ video {
   justify-content: space-between;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -672,9 +717,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-pale {
+.bg-\[\#211e1e\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(217 217 217 / var(--tw-bg-opacity));
+  background-color: rgb(33 30 30 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#111\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -691,15 +741,6 @@ video {
   padding-right: 2rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
 .pt-28 {
   padding-top: 7rem;
 }
@@ -708,12 +749,24 @@ video {
   padding-bottom: 2rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
 
-.font-spline-sans {
-  font-family: Spline sans, sans-serif;
+.font-ibm-plex-sans {
+  font-family: IBM Plex Sans, sans-serif;
 }
 
 .font-bebas {
@@ -725,46 +778,13 @@ video {
   line-height: 1;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-\[10rem\] {
-  font-size: 10rem;
-}
-
-.text-\[15rem\] {
-  font-size: 15rem;
-}
-
-.text-\[14rem\] {
-  font-size: 14rem;
-}
-
-.text-\[12rem\] {
-  font-size: 12rem;
-}
-
-.text-\[8rem\] {
-  font-size: 8rem;
-}
-
-.text-\[9rem\] {
-  font-size: 9rem;
-}
-
-.text-\[11rem\] {
-  font-size: 11rem;
-}
-
 .text-\[11\.5rem\] {
   font-size: 11.5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .uppercase {
@@ -773,6 +793,10 @@ video {
 
 .leading-\[1\.3\] {
   line-height: 1.3;
+}
+
+.leading-\[1\.2\] {
+  line-height: 1.2;
 }
 
 .text-white {
@@ -785,12 +809,17 @@ video {
   color: rgb(217 217 217 / var(--tw-text-opacity));
 }
 
-.opacity-25 {
-  opacity: 0.25;
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
-.opacity-60 {
-  opacity: 0.6;
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-\[0\.999\] {
+  opacity: 0.999;
 }
 
 * {
@@ -814,4 +843,31 @@ video {
   height: 7px;
   border-radius: 50%;
   background-color: white;
+}
+
+.menu-list-style-info:before {
+  left: .2rem;
+}
+
+.list-hyphen {
+  transition: .35s ease-in;
+}
+
+.list-hyphen:before {
+  content: '';
+  position: absolute;
+  top: 43%;
+  left: 0;
+  width: 0rem;
+  height: 5px;
+  background: white;
+  transition: .35s ease-in;
+}
+
+.list-hyphen:hover {
+  padding-left: 5rem;
+}
+
+.list-hyphen:hover:before {
+  width: 4rem;
 };

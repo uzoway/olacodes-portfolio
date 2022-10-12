@@ -25,4 +25,31 @@
         border-radius: 50%;
         background-color: white;
     }
+
+    .menu-list-style-info:before {
+        left: .2rem;
+    }
+
+    .list-hyphen {
+        transition: .35s ease-in;
+    }
+
+    .list-hyphen:before {
+        content: '';
+        position: absolute;
+        top: 43%;
+        left: 0;
+        width: 0rem;
+        height: 5px;
+        background: white;
+        transition: .35s ease-in;
+    }
+
+    .list-hyphen:hover {
+        padding-left: 5rem;
+    }
+
+    .list-hyphen:hover:before {
+        width: 4rem;
+    }
 };
