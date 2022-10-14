@@ -17,7 +17,75 @@
     </header>
 
     <main class="w-full min-h-screen relative text-white bg-[#111] pt-24 px-8 font-ibm-plex-sans">
+        <h1 class="mb-4 border-b border-b-pale pb-3">Contact me</h1>
 
+        <form action="#" method="get" autocomplete="off" class="w-1/2 font-ibm-plex-sans">
+            <div>
+                <label for="name"></label>
+                <input type="text" name="name" required placeholder="Your name" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
+            </div>
+
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" required placeholder="Your email" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
+            </div>
+
+            <div>
+                <label for="budget"></label>
+                <input type="text" name="budget" required placeholder="What's your budget? Min - $1.000" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
+            </div>
+
+            <div>
+                <textarea name="message" cols="30" rows="3" required placeholder="Tell me about your project" class="w-full resize-none mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Send" class="px-40 py-3 bg-[#353535] text-white cursor-pointer">
+            </div>
+        </form>
+
+        <section class="absolute bottom-8 left-0 w-full flex justify-between px-8">
+            <a href="#" class="underline decoration-pale">hello@olacodes.com</a>
+
+            <nav>
+                <ul class="flex">
+                    <li><a href="#">git</a></li>
+                    <li class="ml-6"><a href="#">pen</a></li>
+                    <li class="ml-6"><a href="#">lin</a></li>
+                    <li class="ml-6"><a href="#">twi</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Navigation -->
+        <section class="absolute top-[-100%] left-0 w-full h-screen bg-[#111] opacity-[0.999] z-10 pt-24 pl-8">
+            <div class="flex justify-between">
+                <div class="basis-3/6">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" class="uppercase font-bebas text-8xl relative list-hyphen">home</a></li>
+                            <li><a href="about.html" class="uppercase font-bebas text-8xl relative list-hyphen">about</a></li>
+                            <li><a href="work.html" class="uppercase font-bebas text-8xl relative list-hyphen">work</a></li>
+                            <li><a href="contact.html" class="uppercase font-bebas text-8xl relative list-hyphen">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="basis-3/6 font-ibm-plex-sans">
+                    <nav>
+                        <ul>
+                            <li class="mb-4"><a href="#" class="inline-flex relative">github <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 right-[-13.1rem]"></a></li>
+                            <li class="mb-4"><a href="#" class="inline-flex relative">codepen <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 right-[-12rem]"></a></li>
+                            <li class="mb-4"><a href="#" class="inline-flex relative">linkedin <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 right-[-12.3rem]"></a></li>
+                            <li><a href="#" class="inline-flex relative">twitter <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-2 right-[-12.9rem]"></a></li>
+                        </ul>
+                    </nav>
+
+                    <p class="mt-20">email</p>
+                    <a href="#" class="underline">hello@olacodes.com</a>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
