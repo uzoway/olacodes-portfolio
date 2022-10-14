@@ -15,6 +15,21 @@
         background-size: 100%;
     }
 
+    .menu-bottom-border:after {
+        content: '';
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: white;
+        transition: .5s ease;
+    }
+
+    .menu-bottom-border:hover:after {
+        width: 100%;
+    }
+
     .menu-list-style:before {
         position: absolute;
         content: '';
@@ -45,11 +60,26 @@
         transition: .35s ease-in;
     }
 
-    .list-hyphen:hover {
+    .list-hyphen:hover, .list-hyphen:focus, .list-hyphen:active {
         padding-left: 5rem;
     }
 
-    .list-hyphen:hover:before {
+    .list-hyphen:hover:before, .list-hyphen:focus:before, .list-hyphen:active:before {
         width: 4rem;
+    }
+
+    .footer-links-border:before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: white;
+        transition: .35s ease;
+    }
+
+    .footer-links-border:hover:before {
+        width: 100%;
     }
 };
