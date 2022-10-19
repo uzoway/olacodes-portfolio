@@ -11,8 +11,8 @@
 
     .hero {
         background-image: url(../src/assets/bg-image.png);
-        background-position: top center;
-        background-size: 100%;
+        background-position: center;
+        background-size: cover;
     }
 
     .menu-bottom-border:after {
@@ -34,15 +34,16 @@
         position: absolute;
         content: '';
         top: .5rem;
-        left: -.8rem;
-        width: 7px;
-        height: 7px;
+        left: -.6rem;
+        width: 6px;
+        height: 6px;
         border-radius: 50%;
         background-color: white;
     }
 
     .menu-list-style-info:before {
         left: .2rem;
+        top: .25rem;
     }
 
     .list-hyphen {
@@ -61,11 +62,11 @@
     }
 
     .list-hyphen:hover, .list-hyphen:focus, .list-hyphen:active {
-        padding-left: 5rem;
+        padding-left: 1.5rem;
     }
 
     .list-hyphen:hover:before, .list-hyphen:focus:before, .list-hyphen:active:before {
-        width: 4rem;
+        width: 1rem;
     }
 
     .footer-links-border:before {
@@ -81,5 +82,15 @@
 
     .footer-links-border:hover:before {
         width: 100%;
+    }
+
+    @media (min-width: 640px) {
+        .list-hyphen:hover, .list-hyphen:focus, .list-hyphen:active {
+        padding-left: 4.5rem;
+        }
+
+        .list-hyphen:hover:before, .list-hyphen:focus:before, .list-hyphen:active:before {
+            width: 4rem;
+        }
     }
 };

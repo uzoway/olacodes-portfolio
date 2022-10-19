@@ -8,35 +8,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     <title>About me</title>
 </head>
-<body>
+<body class="relative overflow-x-hidden">
 
     <header class="absolute top-0 left-0 w-full z-20 flex justify-between py-4 px-8 text-white font-ibm-plex-sans">
         <a href="#" class="uppercase">Logo</a>
-        <p class="text-pale leading-[1.3]">currently living in <br> <span class="text-white">Lagos, Nigeria</span></p>
-        <p class="menu-list-style relative cursor-pointer menu-bottom-border">menu</p>
+        <p class="text-[.9rem] md:text-[1rem] text-pale leading-[1.3]">currently living in <br> <span class="text-white">Lagos, Nigeria</span></p>
+        <p class="text-[.9rem] md:text-[1rem] menu-list-style relative cursor-pointer menu-bottom-border">menu</p>
     </header>
 
     <main class="w-full min-h-screen relative text-white bg-[#111] pt-24 px-8 font-ibm-plex-sans">
-        <h1 class="mb-4">About me</h1>
+        <h1 class="mb-0 sm:mb-2 lg:mb-4">About me</h1>
 
-        <section class="pt-4 border-t-white border-t-[1px]">
-            <h2 class="uppercase font-bebas text-8xl">olacodes olaniyi</h2>
+        <section class="pt-4 border-t-white border-t-[1px] lg:pb-28">
+            <h2 class="uppercase font-bebas text-5xl sm:text-8xl md:text-[7.5rem] mb-2 lg:mb-4 lg:text-8xl xl:text-9xl">olacodes olaniyi</h2>
 
-            <div class="flex justify-between">
-                <div class="w-3/4">
-                    <h3 class="mb-4">Frontend Developer</h3>
+            <div class="flex justify-between flex-col lg:flex-row">
+                <div class="w-full mb-4 lg:mb-0 lg:w-3/4">
+                    <h3 class="mb-1 sm:mb-2 text-xs sm:text-[1rem] lg:mb-4">Frontend Developer</h3>
 
-                    <p class="text-3xl mb-2">
+                    <p class="text-[1rem] sm:text-[1.1rem] lg:text-2xl xl:text-3xl mb-2">
                         Combining aesthetics and usefulness, I create solid user interfaces in an artistic way. I love to spend time improving the 
                         aesthetics of digital products without forgetting about usability.
                     </p>
-                    <p class="text-3xl">
+                    <p class="text-[1rem] sm:text-[1.1rem] lg:text-2xl xl:text-3xl">
                         I am a user interface designer working with agencies and startups worldwide to tackle complex projects. Having collaborated
                         with clients, Olacodes knows what it's like to create, design and develop complex user interfaces.
                     </p>
                 </div>
 
-                <div>
+                <div class="mb-28 lg:mb-0 text-[.9rem] sm:text-[1rem] lg:text-xs">
                     <p class="underline decoration-pale mb-2">Interest</p>
                     <ul>
                         <li class="mb-2">Frontend Development</li>
@@ -50,8 +50,8 @@
             </div>
         </section>
 
-        <section class="absolute bottom-8 left-0 w-full flex justify-between px-8">
-            <a href="#" class="underline decoration-pale hover:text-pale focus:text-pale active:text-pale duration-300">hello@olacodes.com</a>
+        <section class="absolute bottom-8 left-0 w-full flex justify-between px-8 text-[.9rem] sm:text-[1rem] flex-col sm:flex-row">
+            <a href="#" class="mb-4 lg:mb-0 underline decoration-pale hover:text-pale focus:text-pale active:text-pale duration-300">hello@olacodes.com</a>
 
             <nav>
                 <ul class="flex">
@@ -66,29 +66,29 @@
         <!-- Navigation -->
         <section class="absolute top-[0%] left-0 w-full h-screen bg-[#111] opacity-[0.999] z-10 pt-24 pl-8">
             <div class="flex justify-between">
-                <div class="basis-3/6">
+                <div class=" basis-[60%] lg:basis-3/6">
                     <nav>
                         <ul>
-                            <li><a href="#" class="uppercase font-bebas text-8xl relative list-hyphen">home</a></li>
-                            <li><a href="about.html" class="uppercase font-bebas text-8xl relative list-hyphen">about</a></li>
-                            <li><a href="work.html" class="uppercase font-bebas text-8xl relative list-hyphen">work</a></li>
-                            <li><a href="contact.html" class="uppercase font-bebas text-8xl relative list-hyphen">contact</a></li>
+                            <li><a href="index.html" class="uppercase font-bebas text-6xl sm:text-7xl lg:text-8xl relative list-hyphen">home</a></li>
+                            <li><a href="about.html" class="uppercase font-bebas text-6xl sm:text-7xl lg:text-8xl relative list-hyphen">about</a></li>
+                            <li><a href="work.html" class="uppercase font-bebas text-6xl sm:text-7xl lg:text-8xl relative list-hyphen">work</a></li>
+                            <li><a href="contact.html" class="uppercase font-bebas text-6xl sm:text-7xl lg:text-8xl relative list-hyphen">contact</a></li>
                         </ul>
                     </nav>
                 </div>
 
-                <div class="basis-3/6 font-ibm-plex-sans">
+                <div class="basis-[40%] lg:basis-3/6 font-ibm-plex-sans">
                     <nav>
-                        <ul>
-                            <li class="mb-4"><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">github <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 right-[-13.1rem]"></a></li>
-                            <li class="mb-4"><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">codepen <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 right-[-12rem]"></a></li>
-                            <li class="mb-4"><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">linkedin <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 right-[-12.3rem]"></a></li>
-                            <li><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">twitter <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-2 right-[-12.9rem]"></a></li>
+                        <ul class="text-[.8rem] sm:text-[1rem]">
+                            <li class="mb-4"><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">github <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 lg:right-[-13.1rem] right-[-4.1rem] sm:right-[-8.4rem] md:right-[-10rem] w-3 h-3"></a></li>
+                            <li class="mb-4"><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">codepen <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 lg:right-[-12rem] right-[-3.25rem] sm:right-[-7.3rem] md:right-[-9rem] w-3 h-3"></a></li>
+                            <li class="mb-4"><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">linkedin <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-1 lg:right-[-12.3rem] right-[-3.5rem] sm:right-[-7.5rem] md:right-[-9.3rem] w-3 h-3"></a></li>
+                            <li><a href="#" class="inline-flex relative hover:tracking-[1px] duration-300 hover:pl-4 active:pl-4 focus:pl-4">twitter <img src="./assets/up-arrow.png" alt="arrow icon" class="absolute top-2 lg:right-[-12.9rem] right-[-4rem] sm:right-[-7.95rem] md:right-[-9.8rem] w-3 h-3"></a></li>
                         </ul>
                     </nav>
 
-                    <p class="mt-20">email</p>
-                    <a href="#" class="underline hover:text-pale duration-200 active:text-pale focus:text-pale">hello@olacodes.com</a>
+                    <p class="text-[.8rem] sm:text-[1rem] mt-20">email</p>
+                    <a href="#" class="text-[.8rem] sm:text-[1rem] underline hover:text-pale duration-200 active:text-pale focus:text-pale">hello@olacodes.com</a>
                 </div>
             </div>
         </section>
