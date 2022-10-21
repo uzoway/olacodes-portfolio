@@ -22,17 +22,17 @@
         <form action="#" method="get" autocomplete="off" class="w-full sm:w-3/4 lg:w-1/2 font-ibm-plex-sans pb-36 lg:pb-32">
             <div>
                 <label for="name"></label>
-                <input type="text" name="name" required placeholder="Your name" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
+                <input type="text" aria-label="name" name="name" required placeholder="Your name" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
             </div>
 
             <div>
                 <label for="email"></label>
-                <input type="email" name="email" required placeholder="Your email" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
+                <input type="email" name="email" aria-label="email" required placeholder="Your email" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
             </div>
 
             <div>
                 <label for="budget"></label>
-                <input type="text" name="budget" required placeholder="What's your budget? Min - $1.000" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
+                <input type="text" name="budget" aria-label="budget" required placeholder="What's your budget? Min - $1.000" class="w-full mb-6 bg-[#111] pl-2 py-2 border-b-pale border-b placeholder:text-white focus-within:pl-6 focus-within:bg-[#353535] focus-within:outline-0 focus:pl-6 focus:bg-[#353535] focus:outline-0 duration-200">
             </div>
 
             <div>
@@ -40,7 +40,7 @@
             </div>
 
             <div>
-                <input type="submit" value="Send" class="px-20 lg:px-40 py-3 bg-[#353535] text-white cursor-pointer hover:bg-[#3dd38d] focus:bg-[#3dd38d] active:bg-[#3dd38d] duration-300">
+                <input type="submit" value="Send" aria-label="submit" class="px-20 lg:px-40 py-3 bg-[#353535] text-white cursor-pointer hover:bg-[#3dd38d] focus:bg-[#3dd38d] active:bg-[#3dd38d] duration-300">
             </div>
         </form>
 
@@ -58,7 +58,7 @@
         </section>
 
         <!-- Navigation -->
-        <section class="absolute top-[0%] left-0 w-full h-screen bg-[#111] opacity-[0.999] z-10 pt-24 pl-8">
+        <section class="absolute top-[-100%] left-0 w-full h-screen bg-[#111] opacity-[0.999] z-10 pt-24 pl-8">
             <div class="flex justify-between">
                 <div class=" basis-[60%] lg:basis-3/6">
                     <nav>
