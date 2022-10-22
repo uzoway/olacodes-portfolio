@@ -9,6 +9,10 @@
         box-sizing: border-box;
     }
 
+    .js-active {
+        top: 0;
+    }
+
     .hero {
         background-image: url(../src/assets/bg-image.png);
         background-position: center;

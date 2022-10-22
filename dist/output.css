@@ -764,10 +764,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.border-0 {
-  border-width: 0px;
-}
-
 .border-t-\[1px\] {
   border-top-width: 1px;
 }
@@ -809,10 +805,6 @@ video {
 .bg-\[\#211e1e\] {
   --tw-bg-opacity: 1;
   background-color: rgb(33 30 30 / var(--tw-bg-opacity));
-}
-
-.p-0 {
-  padding: 0px;
 }
 
 .p-4 {
@@ -984,10 +976,18 @@ video {
   transition-duration: 200ms;
 }
 
+.duration-700 {
+  transition-duration: 700ms;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.js-active {
+  top: 0;
 }
 
 .hero {
