@@ -772,6 +772,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -798,6 +808,10 @@ video {
 
 .pt-0 {
   padding-top: 0px;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .font-ibm-plex-sans {
@@ -1110,6 +1124,15 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sm\:pl-8 {
+    padding-left: 2rem;
   }
 
   .sm\:text-8xl {
