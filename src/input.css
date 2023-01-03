@@ -14,7 +14,7 @@
     }
 
     .hero {
-        background-image: url(../src/assets/bg-image.webp);
+        background-image: url(../src/assets/bg-image.jpg);
         background-position: center;
         background-size: cover;
     }
