@@ -551,6 +551,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .absolute {
   position: absolute;
 }
@@ -680,6 +684,10 @@ video {
   display: inline-flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -798,6 +806,14 @@ video {
   background-color: rgb(53 53 53 / var(--tw-bg-opacity));
 }
 
+.stroke-\[\#111\] {
+  stroke: #111;
+}
+
+.stroke-2 {
+  stroke-width: 2;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -884,6 +900,11 @@ video {
   font-size: .9rem;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -917,6 +938,10 @@ video {
 
 .leading-\[1\.3\] {
   line-height: 1.3;
+}
+
+.leading-\[0\.9\] {
+  line-height: 0.9;
 }
 
 .leading-\[1\.4\] {
@@ -953,6 +978,30 @@ video {
 
 .opacity-\[0\.999\] {
   opacity: 0.999;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-\[0\.5\] {
+  opacity: 0.5;
+}
+
+.opacity-\[0\] {
+  opacity: 0;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .mix-blend-difference {
@@ -1094,6 +1143,18 @@ video {
   background-color: rgb(61 211 141 / var(--tw-bg-opacity));
 }
 
+.hover\:stroke-pale:hover {
+  stroke: #d9d9d9;
+}
+
+.hover\:stroke-\[\#111\]:hover {
+  stroke: #111;
+}
+
+.hover\:stroke-2:hover {
+  stroke-width: 2;
+}
+
 .hover\:pl-4:hover {
   padding-left: 1rem;
 }
@@ -1212,6 +1273,26 @@ video {
     margin-bottom: 0.5rem;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:inline-flex {
+    display: inline-flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:h-2 {
     height: 0.5rem;
   }
@@ -1230,6 +1311,14 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:px-8 {
@@ -1261,6 +1350,15 @@ video {
 
   .sm\:text-\[1\.1rem\] {
     font-size: 1.1rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:opacity-100 {
+    opacity: 1;
   }
 }
 
